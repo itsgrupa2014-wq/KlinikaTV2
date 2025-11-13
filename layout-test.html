@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Layout test — jābūt ZAĻAIS virs SARKANĀ</title>
+<style>
+  html,body{height:100%;margin:0}
+  body{display:grid;grid-template-rows:1fr auto;min-height:100%}
+  .stage{background:#093;color:#fff;display:flex;align-items:center;justify-content:center;font:700 24px/1.2 system-ui}
+  .bar{background:#933;color:#fff;padding:16px;font:700 18px/1.2 system-ui}
+</style>
+</head>
+<body>
+  <div class="stage">ZAĻAIS BLOKS (VIDEO ZONA)</div>
+  <div class="bar">SARKANĀ JOSLA (APAKŠĀ)</div>
+</body>
+</html>
